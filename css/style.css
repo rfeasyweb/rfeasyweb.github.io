@@ -26,7 +26,20 @@ h2 {
   width: 330px;
   text-align: center;
 }
-
+.third img{
+  position: absolute;
+  transform: translate(-50px);
+}
+.third img:first-child{
+  transform: translate(-50px,13px);
+}
+.third img:last-child{
+  transform: translate(-35px);
+}
+  
+.third h3{
+  margin-top: 95px;
+}
 .perks {
   flex-grow: 5;
 }
