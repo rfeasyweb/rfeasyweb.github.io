@@ -57,6 +57,10 @@ h2 {
 .save > div:first-child {
   width: 100%;
 }
+.save > div p{
+  width: 195px;
+  margin: 15px auto 30px;
+}
 @media screen and ( max-width: 670px ){
   .save > div {
   width: 97%;
