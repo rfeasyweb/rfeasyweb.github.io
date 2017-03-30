@@ -92,6 +92,7 @@ h4 {
     text-decoration: underline;
     font-weight: bold;
     font-style: italic;
+    font-size: 24px;
 }
 
 .perks {
@@ -108,7 +109,7 @@ button{
     padding: 10px 80px;
     font-weight: bold;
     text-transform: uppercase;
-@media screen and ( max-width: 670px ){
+@media all and ( max-width: 670px ){
   .save > div {
   width: 97%;
 }
