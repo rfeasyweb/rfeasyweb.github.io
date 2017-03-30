@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Khula');
 h2 {
   text-align: center;
-  margin: 50px 0 20px 0;
+  margin: 30px 0 25px 0;
   font-weight: bold;
   font-family: 'Khula', sans-serif;
+  font-size: 42px;
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Khula', sans-serif;
+  line-height: 1.3;
 }
 h3 {
   font-family: 'Oswald', sans-serif;
@@ -77,9 +79,12 @@ h4 {
   width: 100%;
   font-size: 22px;
 }
-.save > div p{
+.save > div > p{
   width: 240px;
   margin: 15px auto 30px;
+}
+.five1 > p {
+  font-size: 21px;
 }
 
 .perks {
