@@ -83,11 +83,11 @@ h4 {
   width: 240px;
   margin: 15px auto 30px;
 }
-.five1 > p {
+.five1 > p:first-child {
   font-size: 21px;
   width: 100%
 }
-.five1 > span {
+.five1 span {
     color: #ff8108;
     text-decoration: underline;
     font-weight: bold;
