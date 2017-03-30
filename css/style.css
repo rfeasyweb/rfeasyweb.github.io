@@ -106,9 +106,11 @@ button{
     background-color: #0f94be;
     font-size: 20px;
     color: #fff;
-    padding: 10px 80px;
+    padding: 13px 85px;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 10px 0 35px;
+}
 @media all and ( max-width: 670px ){
   .save > div {
   width: 97%;
