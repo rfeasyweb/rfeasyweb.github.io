@@ -18,22 +18,22 @@ h2 {
 
 .secondRow {
   width: 100%;
-  background-color: #fbfbfb;
+  background-color: rgb(251,251,251);
 }
 
-.third {
-  -margin: 0 1%;
-  width: 330px;
-  text-align: center;
+.third1,.third2,.third3 {
+  width: 340px;
 }
-.third img{
+.third1 img{
+  position: absolute;
+  transform: translate(-50px,13px);
+}
+.third2 img{
   position: absolute;
   transform: translate(-50px);
 }
-.third img:first-child{
-  transform: translate(-50px,13px);
-}
-.third img:last-child{
+.third3 img{
+  position: absolute;
   transform: translate(-35px);
 }
   
@@ -56,4 +56,9 @@ h2 {
 }
 .save > div:first-child {
   width: 100%;
+}
+@media screen and ( max-width: 670px ){
+  .save > div {
+  width: 97%;
+}
 }
