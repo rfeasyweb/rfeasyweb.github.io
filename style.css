@@ -1,0 +1,46 @@
+h2 {
+  text-align: center;
+  margin: 50px 0 10px 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.firstRow {
+  width: 100%;
+}
+
+.secondRow {
+  width: 100%;
+  background-color: #fbfbfb;
+}
+
+.third {
+  -margin: 0 1%;
+  width: 330px;
+  text-align: center;
+}
+
+.perks {
+  flex-grow: 5;
+}
+
+.save {
+  flex-grow: 6;
+  max-width: 600px;
+  -display: flex;
+}
+
+.save > div {
+  display: inline-block;
+  width: 49%;
+}
+.save > div:first-child {
+  width: 100%;
+}
