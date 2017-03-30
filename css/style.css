@@ -37,7 +37,7 @@ h2 {
   transform: translate(-35px);
 }
   
-.third h3{
+.third1 h3,.third2 h3,.third3 h3{
   margin-top: 95px;
 }
 .perks {
