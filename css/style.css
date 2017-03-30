@@ -6,14 +6,21 @@ h2 {
   font-weight: bold;
   font-family: 'Khula', sans-serif;
 }
-p {font-family: 'Khula', sans-serif;}
-h3 {font-family: 'Oswald', sans-serif;}
+p {
+  font-size: 20px;
+  font-family: 'Khula', sans-serif;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+  margin-top: 95px;
+}
 h4 {
   font-family: 'Khula', sans-serif;
   color: #1e2935;
   font-weight: bold;
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: 43px;
+  margin: 20px 0 10px 0;
 }
 .wrapper {
   max-width: 1200px;
@@ -52,10 +59,6 @@ h4 {
   position: absolute;
   transform: translate(-35px);
 }
-  
-.third1 h3,.third2 h3,.third3 h3{
-  margin-top: 95px;
-}
 .why {
   flex-grow: 5;
 }
@@ -72,14 +75,16 @@ h4 {
 }
 .save > div:first-child {
   width: 100%;
+  font-size: 22px;
 }
 .save > div p{
-  width: 195px;
+  width: 240px;
   margin: 15px auto 30px;
 }
+
 .perks {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 34px;
   text-transform: uppercase;
   color: #1e2935;
   margin-top: 7px;
