@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Khula');
 h2 {
   text-align: center;
   margin: 50px 0 20px 0;
+  font-weight: bold;
+  font-family: 'Khula', sans-serif;
 }
-
+p {font-family: 'Khula', sans-serif;}
+h3 {font-family: 'Oswald', sans-serif;}
+h4 {
+  font-family: 'Khula', sans-serif;
+  color: #1e2935;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -44,7 +56,7 @@ h2 {
 .third1 h3,.third2 h3,.third3 h3{
   margin-top: 95px;
 }
-.perks {
+.why {
   flex-grow: 5;
 }
 
@@ -65,6 +77,20 @@ h2 {
   width: 195px;
   margin: 15px auto 30px;
 }
+.perks {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #1e2935;
+  margin-top: 7px;
+}
+button{
+    background-color: #0f94be;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 80px;
+    font-weight: bold;
+    text-transform: uppercase;
 @media screen and ( max-width: 670px ){
   .save > div {
   width: 97%;
